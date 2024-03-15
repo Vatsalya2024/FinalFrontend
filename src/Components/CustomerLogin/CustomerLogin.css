@@ -1,0 +1,83 @@
+.success{
+    background-color: #400440;
+    color: white;
+    margin-right: 5px;
+}
+.cancel{
+    color: white;
+}
+.successMesage{
+    background-color: #a2a1a1;
+
+}
+
+
+.card {
+    flex: 1;
+    margin: 0 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: x-large;
+    background-color: #400440;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.1);
+}
+.card:hover .card-title {
+    background-color: #400440; 
+    color: white; 
+}
+.card-body {
+    padding: 20px;
+    text-align: left;
+}
+
+.buttons{
+    text-align: center;
+    
+}
+
+.value {
+    color: #999;
+}
+
+button {
+    background-color: #400440;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #600660;
+}
+
+
+.alert-danger {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+}
+.xd{
+    margin-top: 5px;
+    padding-right: 14px;
+}
+.loginbutton{
+    padding-left: 4px;
+}
+.fogotpasswordlink{
+    padding-right: 22px;
+}

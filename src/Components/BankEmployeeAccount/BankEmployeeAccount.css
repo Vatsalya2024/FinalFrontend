@@ -1,0 +1,22 @@
+.b{
+    background-color: #400440;
+    color: white;
+}
+.cancelz{
+    margin-left: 4px;
+    margin-bottom: 8px;
+}
+.button-container {
+    display: flex;
+    align-items: center;
+}
+.ll{
+    margin-top: 28px;
+}
+.lm{
+    margin-top: 6px;
+}
+.ln{
+    margin-left: 4px;
+    margin-top: 28px;
+}

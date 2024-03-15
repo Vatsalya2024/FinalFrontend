@@ -1,0 +1,75 @@
+.transactions-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin: 20px;
+}
+
+.transactions-section {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.transactions-list {
+    margin-top: 10px;
+}
+
+.transaction-item {
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.labels{
+    margin-right: 4px;
+    
+}
+input{
+    margin-bottom: 4px;
+    
+}
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+.card-title {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+
+.card-text {
+    margin-bottom: 3px;
+}
+
+.labels {
+    margin-bottom: 3px;
+    display: block;
+}
+
+.input-group {
+    margin-bottom: 10px;
+}
+
+.qw{
+    margin-top: 20px;
+    margin-left: 2px;
+}
+.qe{
+    margin-top: 20px;
+    margin-left: 2px;
+}
+.qr{
+    margin-top: 20px;
+    margin-left: 2px;
+}

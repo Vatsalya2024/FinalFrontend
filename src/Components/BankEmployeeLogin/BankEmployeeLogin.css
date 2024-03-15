@@ -1,0 +1,10 @@
+.buttonx{
+    text-align: center;
+    padding-left: 27px;
+}
+.buttonx:hover{
+    color: black;
+}
+.belink{
+    text-align: center;
+}

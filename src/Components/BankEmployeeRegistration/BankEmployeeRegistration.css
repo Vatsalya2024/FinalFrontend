@@ -1,0 +1,28 @@
+.buttons {
+    text-align: center;
+    margin-top: 20px; 
+}
+
+.btn {
+    padding: 8px 20px;
+    font-size: 16px; 
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn.success {
+  
+    color: white;
+    border: none;
+}
+
+.btn.cancel {
+  
+    color: white;
+    border: none;
+}
+
+.btn.success:hover,
+.btn.cancel:hover {
+    opacity: 0.8; 
+}
