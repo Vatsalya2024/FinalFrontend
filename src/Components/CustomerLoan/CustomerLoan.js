@@ -131,6 +131,7 @@ function CustomerLoan() {
   const filteredAvailableLoans = availableLoans.filter((loan) =>
     loan.loanType.toLowerCase().includes(searchQuery.toLowerCase())
   );
+
   // Function to handle loan selection
   const handleSelectAvailableLoan = (loan) => {
     setSelectedAvailableLoan(loan);
@@ -139,6 +140,11 @@ function CustomerLoan() {
     setInterest(loan.interest);
     setTenure(loan.tenure);
     setErr("");
+
+    // Show alert and navigate to "Apply for Loan" section
+    if (window.confirm("Do you want to apply for this loan?")) {
+      setActiveSection("applyLoan");
+    }
   };
 
   // Render function to display UI
